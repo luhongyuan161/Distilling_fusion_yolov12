@@ -1,0 +1,74 @@
+##########################################################################################################
+
+# MSRS dataset YAML for YOLOv11 valing
+path: /root/autodl-fs/MSRS-main/detection/MSRS-fusion-coco   # 数据集根目录
+train: images/train
+val: images/val
+test: images/test   # 如果有测试集可以写上
+
+# 类别数量
+nc: 4
+
+# 类别名称
+names:
+  0: person
+  1: bicycle
+  2: car
+  3: motorcycle
+  
+##########################################################################################################
+ 
+
+# # MSRS dataset YAML for YOLOv11 training
+
+# # 数据集路径（请修改为你自己的路径）zW
+# path: /path/to/MSRS   # 数据集根目录
+# train: /root/autodl-fs/MSRS-main/detection/MSRS-fusion/images   # 训练集图片
+# val: /root/autodl-fs/MSRS-main/detection/MSRS-fusion/images   # 验证集图片
+# # val: /root/autodl-fs/MSRS-main/detection/MSRS-fusion/images   # 验证集图片
+
+# # test: images/test     # 可选，测试集图片
+
+# # 类别数量
+# nc: 2   # 目标类别数量（根据任务修改）
+
+# # 类别名称（示例：假设只检测行人）
+# names:
+#   0: person
+#   1: car
+
+##########################################################################################################
+
+# MSRS dataset YAML for YOLOv11 training
+
+# path: /root/autodl-fs/MSRS-main/detection/MSRS-fusion   # 数据集根目录
+# train: images/train
+# val: images/val
+# test: images/test   # 如果有测试集可以写上
+
+# # 类别数量
+# nc: 4
+
+# # 类别名称
+# names:
+#   0: person
+#   1: bicycle
+#   2: car
+#   3: truck
+
+##########################################################################################################
+
+# # MSRS dataset YAML for YOLOv11 training
+# path: /root/autodl-fs/MSRS-main/detection/MSRS-fusion   # 数据集根目录
+# train: images/train
+# val: images/val
+# test: images/test   # 如果有测试集可以写上
+
+# # 类别数量
+# nc: 2
+
+# # 类别名称
+# names:
+#   0: person
+#   1: car
+
